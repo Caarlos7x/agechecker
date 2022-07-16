@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de idade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body">
+    <div class="page">
+      <header>
+        <h1 id="messa">Verificador de idade</h1>
+      </header>
+      <section id="sect">
+          <p id="ano">Ano de nascimento:
+            <input type="number" name="textano" id="textano" min="0">
+          </p>
+
+          <div class="select">
+            <p id="gen">Selecione o sexo:
+              <input type="radio" name="radsex" id="mas" checked>
+              <label for="mas">Maculino</label>
+              <input type="radio" name="radsex" id="fem">
+              <label for="fem">Feminino</label>
+          </p>
+           
+          </div>
+          <div class="center">
+            <button onclick="verificar()">Verificar</button>
+          </div>
+
+          <div id="res">
+            Preencha os dados acima para ver o resultado.
+          </div>
+      </section>
+      <footer>
+        <p id="para"><strong>< </strong> Code with ❤️ by Carlos Augusto<strong> /></strong> .</p>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
