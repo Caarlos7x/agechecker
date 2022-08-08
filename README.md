@@ -1,7 +1,5 @@
 # AGE CHECKER
 
-# ROCKET NOTES
-
 <img height="300px" src="https://i.imgur.com/TaP2J2T.gif">
 
 
